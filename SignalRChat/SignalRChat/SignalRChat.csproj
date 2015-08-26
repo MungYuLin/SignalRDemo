@@ -154,7 +154,9 @@
     <Compile Include="Hubs\ChatHub.cs" />
     <Compile Include="Hubs\Startup.cs" />
     <Compile Include="Hubs\TimeHub.cs" />
+    <Compile Include="Hubs\UserHub.cs" />
     <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignalR.Sample\Startup.cs" />
     <Compile Include="SignalR.Sample\Stock.cs" />
@@ -255,6 +257,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="SignalR.Sample\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\TimeShow.cshtml" />
+    <Content Include="Views\Home\UserDate.cshtml" />
+    <Content Include="Views\Home\ShowUsers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

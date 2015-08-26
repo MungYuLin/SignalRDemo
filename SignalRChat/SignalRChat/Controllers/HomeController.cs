@@ -23,5 +23,15 @@ namespace SignalRChat.Controllers
         {
             return View();
         }
+
+        public ActionResult UserDate()
+        {
+            return View();
+        }
+
+        public ActionResult ShowUsers()
+        {
+            return View();
+        }
     }
 }
